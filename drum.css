@@ -1,0 +1,126 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, sans-serif;
+   background-color: #55758d;
+}
+
+.heading {
+   text-align: center;
+   font-size: 2.5rem;
+   margin: 20px 0;
+   color: #1c1c55;
+   height: 50px;
+   margin-top: 20px;
+}
+
+.main{
+   background-color:#348370 ;
+   height: 100vh;
+
+}
+
+.cont {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 20px;
+   padding: 20px;
+   margin: 30px;
+}
+
+button {
+   background-size: cover;
+   font-size: 1.5rem;
+   font-weight: bolder;
+   padding: 20px;
+   border: 10px solid rgb(28, 28, 85);
+   border-radius: 10px;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+   cursor: pointer;
+   color: rgb(27, 16, 16);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-transform: uppercase;
+   transition: transform 0.1s ease;
+}
+
+button:active {
+   transform: scale(0.95);
+}
+
+button.w {
+   font-size: 50px;
+   font-weight: bolder;
+   color: #e77313;
+   background-image: url('https://rukminim2.flixcart.com/image/850/1000/k6l2vm80/drum-kit-set/f/y/q/side-drum-steel-12-inch-new-jaibharat-musicals-original-imafh6mxw7fargtu.jpeg?q=20&crop=false');
+}
+
+button.a {
+   font-size: 50px;
+   font-weight: bolder;
+   color: #e77313;
+   background-image: url("https://i.pinimg.com/564x/32/96/56/329656ec2dc1166cbc8dd92e421665c2.jpg");
+}
+
+button.s {
+   font-size: 50px;
+   font-weight: bolder;
+   color: #e77313;
+   background-image: url("https://w7.pngwing.com/pngs/505/367/png-transparent-drums-snare-drum-drum-product-drum-music-download.png");
+}
+
+button.d {
+   font-size: 50px;
+   font-weight: bolder;
+   color: #e77313;
+   background-image: url("https://media.istockphoto.com/id/1148943461/vector/beautiful-wooden-percussion-musical-instrument-drum-with-chopsticks.jpg?s=612x612&w=0&k=20&c=zG7BnUTK87LIkFAl_L_8nitiN1AWxwz3GUamV94dcXw=");
+}
+
+button.j {
+   font-size: 50px;
+   font-weight: bolder;
+   color: #e77313;
+   background-image: url("https://static.vecteezy.com/system/resources/previews/000/510/436/original/drum-musical-instruments-stock-vector-illustration.jpg");
+}
+
+button.k {
+   font-size: 50px;
+   font-weight: bolder;
+   color: #e77313;
+   background-image: url("https://media.istockphoto.com/id/186875718/photo/silver-chrome-snare-drum-with-sticks-instrument-on-white-background.jpg?s=612x612&w=0&k=20&c=K9hq3AfrfM2yk7LNpxVjw7zBE5c4wUnnm8GbKIxe3ek=");
+}
+
+button.l {
+    font-size: 50px;
+   font-weight: bolder;
+   color: #e77313;
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTImnUhU2_ChGUn6O5ede3KvY4qcwBSrkn2QA&s");
+}
+
+@media (max-width: 768px) {
+   .cont {
+       flex-direction: column;
+       align-items: center;
+   }
+
+   button {
+       height: 15vh;
+       width: 15vh;
+       font-size: 1.2rem;
+   }
+}
+
+@media (max-width: 480px) {
+   .heading {
+       font-size: 2rem;
+   }
+
+   button {
+       height: 12vh;
+       width: 12vh;
+       font-size: 1rem;
+   }
+}
